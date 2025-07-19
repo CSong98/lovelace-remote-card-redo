@@ -22,7 +22,7 @@ lovelace-remote-card
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 
 这是一个通用的电视(机顶盒)遥控器卡片, 可以自定义设置额外的按钮
-
+【这里要改，我换了代码，源代码我用gpt改了安装js的话应该安装我这个代码里的新的 by csong98】
 用 `js`类型安装 `remote.js` .
 
 ```yaml
