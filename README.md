@@ -1,25 +1,27 @@
 <!--
  * @Author        : fineemb
  * @Github        : https://github.com/fineemb
- * @Description   : 修复了中央方向控制区域按钮不工作的问题
+ * @Description   : 
  * @Date          : 2019-10-31 12:03:02
- * @LastEditors   : fineemb (修复版)
- * @LastEditTime  : 2023-11-30 12:00:00
+ * @LastEditors   : fineemb
+ * @LastEditTime  : 2020-04-19 23:53:11
  -->
-lovelace-remote-card (修复版)
+## 更新日志
+这是个我很需要的界面，我用来控制极米H2的投影仪
+我不会用github，没有编程基础，我下载到本地用ai修复了我自己测试目前可以用
+标注和引用如果不够严谨希望大家见谅。
+### 版本1.3 (2023-XX-XX)
+- 修复了方向控制按钮（上下左右和确认按钮）无响应的问题
+- 添加了对方向控制按钮的事件监听器
+- 新增了`_handleCircleButtonClick`方法处理方向控制按钮点击事件
+- 支持震动反馈（如果配置中启用了vibrate选项）
+
+lovelace-remote-card
 ================================================
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 
 这是一个通用的电视(机顶盒)遥控器卡片, 可以自定义设置额外的按钮
-
-## 修复说明
-
-此版本修复了以下问题：
-1. 中央方向控制区域（上、下、左、右、确认按钮）无法工作的问题
-2. 改进了事件处理逻辑，增强了按钮响应能力
-3. 添加了更好的错误处理和调试信息
-4. 优化了MQTT消息处理流程
 
 用 `js`类型安装 `remote.js` .
 
